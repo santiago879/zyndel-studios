@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zyndel Studios</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a0a0a;
+      color: #fff;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    header {
+      background-color: #111;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 3px solid red;
+    }
+
+    header h1 {
+      margin: 0;
+      color: red;
+      font-size: 4em;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 25px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: red;
+    }
+
+    section {
+      padding: 100px 40px;
+      max-width: 1200px;
+      margin: auto;
+      border-bottom: 1px solid #222;
+    }
+
+    section h2 {
+      color: red;
+      font-size: 3em;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .service {
+      background-color: #151515;
+      padding: 30px;
+      margin: 40px 0;
+      border-left: 6px solid red;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    }
+
+    .service h3 {
+      margin-top: 0;
+      color: white;
+      font-size: 1.8em;
+    }
+
+    .custom {
+      background-color: #1a1a1a;
+      padding: 80px 40px;
+      text-align: center;
+      font-size: 2em;
+      color: red;
+      border: 3px solid red;
+      border-radius: 10px;
+      margin-top: 60px;
+    }
+
+    footer {
+      background-color: #111;
+      padding: 40px 20px;
+      text-align: center;
+      color: #aaa;
+      font-size: 1em;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li::before {
+      content: "✔ ";
+      color: red;
+      margin-right: 8px;
+    }
+
+    .why-us {
+      background-color: #111;
+      padding: 60px;
+      border-radius: 10px;
+      margin-top: 60px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+    }
+
+    .why-us h3 {
+      font-size: 2em;
+      color: red;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .why-us ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .why-us li {
+      padding: 10px 0;
+      font-size: 1.1em;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5em;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      section {
+        padding: 60px 20px;
+      }
+
+      section h2 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Zyndel Studios</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#que-hacemos">¿Qué hacemos?</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#personalizacion">A la medida</a>
+      <a href="#porque">¿Por qué elegirnos?</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenid@ a Zyndel Studios</h2>
+    <p>Somos una firma de desarrollo digital enfocada en crear soluciones únicas y profesionales. En Zyndel Studios, creemos que cada proyecto merece ser especial, diferente y sobre todo funcional. Desde la idea inicial hasta el lanzamiento final, acompañamos a nuestros clientes en cada paso del proceso, asegurando calidad, innovación y resultados.</p>
+    <p>Nuestra meta es clara: transformar tu visión en una experiencia digital impactante, útil y memorable.</p>
+  </section>
+
+  <section id="que-hacemos">
+    <h2>¿Qué hacemos?</h2>
+    <p>Ofrecemos un abanico completo de servicios digitales y tecnológicos para empresas, creadores y comunidades.</p>
+    <ul>
+      <li>Diseño y desarrollo de páginas web</li>
+      <li>Desarrollo de videojuegos personalizados</li>
+      <li>Programación de bots para Discord</li>
+      <li>Aplicaciones móviles para Android e iOS</li>
+      <li>Configuraciones avanzadas para servidores o herramientas</li>
+      <li>Plugins y mods personalizados para Minecraft</li>
+    </ul>
+  </section>
+
+  <section id="servicios">
+    <h2>Nuestros Servicios</h2>
+
+    <div class="service">
+      <h3>🌐 Páginas Web</h3>
+      <p>Desde sitios personales hasta plataformas corporativas, creamos webs optimizadas, responsivas y alineadas con tus objetivos.</p>
+    </div>
+
+    <div class="service">
+      <h3>🎮 Videojuegos</h3>
+      <p>Diseñamos experiencias interactivas que combinan tecnología, narrativa y jugabilidad. Ideal para estudios independientes o marcas que desean gamificar sus productos.</p>
+    </div>
+
+    <div class="service">
+      <h3>🤖 Bots de Discord</h3>
+      <p>Automatiza tareas, mejora la gestión de comunidades y añade funcionalidades útiles o divertidas a tu servidor de Discord.</p>
+    </div>
+
+    <div class="service">
+      <h3>📱 Aplicaciones</h3>
+      <p>Apps funcionales, intuitivas y rápidas. Utilizamos tecnologías modernas para asegurar rendimiento y escalabilidad.</p>
+    </div>
+
+    <div class="service">
+      <h3>⚙️ Configs</h3>
+      <p>Desde ajustes de rendimiento hasta configuraciones de servidores completos. Lo adaptamos a tus necesidades exactas.</p>
+    </div>
+
+    <div class="service">
+      <h3>🔌 Plugins y Mods de Minecraft</h3>
+      <p>Expande el universo de Minecraft con contenido hecho a medida: sistemas únicos, interfaces, comandos, economía, misiones, etc.</p>
+    </div>
+  </section>
+
+  <section id="personalizacion" class="custom">
+    <h2>🚀 TODO A LA MEDIDA 🚀</h2>
+    <p>En Zyndel Studios no usamos plantillas ni soluciones genéricas. Cada proyecto es analizado, diseñado y desarrollado desde cero para ajustarse a tus objetivos, estilo y visión. Cada línea de código, cada diseño, cada detalle es exclusivamente tuyo.</p>
+  </section>
+
+  <section id="porque">
+    <div class="why-us">
+      <h3>¿Por qué elegir Zyndel Studios?</h3>
+      <ul>
+        <li>✅ Más de 5 años de experiencia en desarrollo digital.</li>
+        <li>✅ Comunicación directa y constante con el cliente.</li>
+        <li>✅ Compromiso con la calidad, el diseño y el rendimiento.</li>
+        <li>✅ Proyectos 100% personalizados, sin plantillas predefinidas.</li>
+        <li>✅ Asesoramiento y soporte durante y después del desarrollo.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Listo para comenzar tu proyecto con nosotros? Estamos listos para escucharte y ayudarte a construir algo grandioso.</p>
+    <p style="font-size: 1.5em; color: red; font-weight: bold;">zyndelstudios.contacto.@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Zyndel Studios. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
